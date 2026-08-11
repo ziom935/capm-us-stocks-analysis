@@ -1,0 +1,270 @@
+============================== AAPL ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            AAPL_excess   R-squared:                       0.568
+Model:                            OLS   Adj. R-squared:                  0.568
+Method:                 Least Squares   F-statistic:                     3306.
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):               0.00
+Time:                        23:16:22   Log-Likelihood:                 7544.2
+No. Observations:                2513   AIC:                        -1.508e+04
+Df Residuals:                    2511   BIC:                        -1.507e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0005      0.000      2.033      0.042    1.73e-05       0.001
+market_excess     1.2081      0.021     57.495      0.000       1.167       1.249
+==============================================================================
+Omnibus:                      362.440   Durbin-Watson:                   1.820
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3300.923
+Skew:                           0.375   Prob(JB):                         0.00
+Kurtosis:                       8.564   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== JPM ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             JPM_excess   R-squared:                       0.510
+Model:                            OLS   Adj. R-squared:                  0.510
+Method:                 Least Squares   F-statistic:                     2614.
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):               0.00
+Time:                        23:16:22   Log-Likelihood:                 7515.9
+No. Observations:                2513   AIC:                        -1.503e+04
+Df Residuals:                    2511   BIC:                        -1.502e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0003      0.000      1.270      0.204      -0.000       0.001
+market_excess     1.0864      0.021     51.124      0.000       1.045       1.128
+==============================================================================
+Omnibus:                      628.090   Durbin-Watson:                   2.039
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9378.437
+Skew:                           0.765   Prob(JB):                         0.00
+Kurtosis:                      12.339   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== JNJ ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             JNJ_excess   R-squared:                       0.213
+Model:                            OLS   Adj. R-squared:                  0.213
+Method:                 Least Squares   F-statistic:                     678.9
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          1.11e-132
+Time:                        23:16:22   Log-Likelihood:                 7942.1
+No. Observations:                2513   AIC:                        -1.588e+04
+Df Residuals:                    2511   BIC:                        -1.587e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0002      0.000      0.780      0.435      -0.000       0.001
+market_excess     0.4673      0.018     26.056      0.000       0.432       0.503
+==============================================================================
+Omnibus:                      441.406   Durbin-Watson:                   2.011
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7659.225
+Skew:                          -0.284   Prob(JB):                         0.00
+Kurtosis:                      11.534   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== XOM ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             XOM_excess   R-squared:                       0.274
+Model:                            OLS   Adj. R-squared:                  0.274
+Method:                 Least Squares   F-statistic:                     948.0
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          6.98e-177
+Time:                        23:16:22   Log-Likelihood:                 6996.1
+No. Observations:                2513   AIC:                        -1.399e+04
+Df Residuals:                    2511   BIC:                        -1.398e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const          4.198e-05      0.000      0.141      0.888      -0.001       0.001
+market_excess     0.8046      0.026     30.789      0.000       0.753       0.856
+==============================================================================
+Omnibus:                      267.940   Durbin-Watson:                   1.956
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1464.694
+Skew:                           0.349   Prob(JB):                         0.00
+Kurtosis:                       6.674   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== PG ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              PG_excess   R-squared:                       0.228
+Model:                            OLS   Adj. R-squared:                  0.228
+Method:                 Least Squares   F-statistic:                     742.5
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          1.91e-143
+Time:                        23:16:22   Log-Likelihood:                 7915.8
+No. Observations:                2513   AIC:                        -1.583e+04
+Df Residuals:                    2511   BIC:                        -1.582e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0001      0.000      0.493      0.622      -0.000       0.001
+market_excess     0.4939      0.018     27.248      0.000       0.458       0.529
+==============================================================================
+Omnibus:                      365.563   Durbin-Watson:                   2.037
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5327.450
+Skew:                           0.040   Prob(JB):                         0.00
+Kurtosis:                      10.132   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== CAT ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             CAT_excess   R-squared:                       0.412
+Model:                            OLS   Adj. R-squared:                  0.411
+Method:                 Least Squares   F-statistic:                     1757.
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          1.37e-291
+Time:                        23:16:22   Log-Likelihood:                 7043.3
+No. Observations:                2513   AIC:                        -1.408e+04
+Df Residuals:                    2511   BIC:                        -1.407e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0005      0.000      1.848      0.065   -3.31e-05       0.001
+market_excess     1.0751      0.026     41.918      0.000       1.025       1.125
+==============================================================================
+Omnibus:                      367.009   Durbin-Watson:                   1.885
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4438.970
+Skew:                           0.245   Prob(JB):                         0.00
+Kurtosis:                       9.493   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== NEE ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             NEE_excess   R-squared:                       0.212
+Model:                            OLS   Adj. R-squared:                  0.212
+Method:                 Least Squares   F-statistic:                     675.0
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          5.32e-132
+Time:                        23:16:22   Log-Likelihood:                 7147.6
+No. Observations:                2513   AIC:                        -1.429e+04
+Df Residuals:                    2511   BIC:                        -1.428e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0003      0.000      1.044      0.297      -0.000       0.001
+market_excess     0.6393      0.025     25.980      0.000       0.591       0.688
+==============================================================================
+Omnibus:                      353.272   Durbin-Watson:                   2.019
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3128.295
+Skew:                          -0.364   Prob(JB):                         0.00
+Kurtosis:                       8.417   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== AMZN ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            AMZN_excess   R-squared:                       0.422
+Model:                            OLS   Adj. R-squared:                  0.421
+Method:                 Least Squares   F-statistic:                     1830.
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          7.74e-301
+Time:                        23:16:22   Log-Likelihood:                 6871.7
+No. Observations:                2513   AIC:                        -1.374e+04
+Df Residuals:                    2511   BIC:                        -1.373e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0004      0.000      1.171      0.242      -0.000       0.001
+market_excess     1.1748      0.027     42.780      0.000       1.121       1.229
+==============================================================================
+Omnibus:                      594.484   Durbin-Watson:                   1.984
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            10555.183
+Skew:                           0.643   Prob(JB):                         0.00
+Kurtosis:                      12.958   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== LIN ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             LIN_excess   R-squared:                       0.487
+Model:                            OLS   Adj. R-squared:                  0.486
+Method:                 Least Squares   F-statistic:                     2379.
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):               0.00
+Time:                        23:16:22   Log-Likelihood:                 7922.0
+No. Observations:                2513   AIC:                        -1.584e+04
+Df Residuals:                    2511   BIC:                        -1.583e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0002      0.000      1.195      0.232      -0.000       0.001
+market_excess     0.8819      0.018     48.780      0.000       0.846       0.917
+==============================================================================
+Omnibus:                      231.607   Durbin-Watson:                   2.104
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1356.978
+Skew:                           0.205   Prob(JB):                    2.17e-295
+Kurtosis:                       6.576   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================== PLD ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             PLD_excess   R-squared:                       0.419
+Model:                            OLS   Adj. R-squared:                  0.419
+Method:                 Least Squares   F-statistic:                     1813.
+Date:                Mon, 10 Aug 2026   Prob (F-statistic):          9.68e-299
+Time:                        23:16:22   Log-Likelihood:                 7350.8
+No. Observations:                2513   AIC:                        -1.470e+04
+Df Residuals:                    2511   BIC:                        -1.469e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0002      0.000      0.642      0.521      -0.000       0.001
+market_excess     0.9664      0.023     42.585      0.000       0.922       1.011
+==============================================================================
+Omnibus:                      153.065   Durbin-Watson:                   2.080
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              600.674
+Skew:                          -0.146   Prob(JB):                    3.67e-131
+Kurtosis:                       5.377   Cond. No.                         87.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
